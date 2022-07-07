@@ -1,14 +1,2 @@
 {
-  "extends": [
-    "config:base",
-    "group:all",
-    ":disableDependencyDashboard",
-    "schedule:monthly"
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": ["com.puppycrawl.tools:checkstyle"],
-      "allowedVersions": "<=9.3"
-    }
-  ]
 }
